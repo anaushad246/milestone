@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Try </title>
+    <style>
+        .item{
+            border: 2px solid blueviolet;
+        }
+        .try{
+            display: grid;
+            grid-template-rows: 100px 100px;
+            grid-template-columns: 30px 70px;
+        }
+        .a{
+            grid-row: 1/3;
+            text-align: center;
+        }
+        .try2{
+            width: fit-content;
+            height: fit-content;
+            display: flex;
+            flex-direction: row;
+        }
+    </style>
+</head>
+<body>
+    <div class="try">
+        <div class="item a ">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+    </div>
+
+    <div class="try2">
+        <div class="item">a</div>
+        <div class="item">
+            <b>Lorem ipsum, dolor sit amet consectetur adipisicing</b>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, quisquam?</p>
+        </div>
+    </div>
+</body>
+</html>

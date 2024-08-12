@@ -1,0 +1,184 @@
+ body{
+     width: 100vw;
+     height: 100vh;
+     
+     margin-top: 2rem;
+     overflow: hidden;
+     
+     
+     font-size: 16px;
+}
+/* special classes */
+.d-f-r{
+    display: flex;
+    flex-direction: row;
+}
+
+/* header style open */
+
+/* header  container */
+#header-container{
+    height: 5vh;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+/* header first stage */
+#logo{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    column-gap: 5px;
+}
+#logo img{
+    height: 50px;
+    width: 50px;
+    padding-top: 10px;
+}
+/* header middle section */
+#header-middlesection{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    font-size: 1rem;
+    justify-content: space-evenly; 
+    text-align: center;
+    width: 55%;  
+}
+
+/* Sign Up Button Section */
+#signup-button{
+    padding: 0.7rem;
+    width: 10%;
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+
+/* container */
+#container{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    height: 60vh;
+    padding-top: 2rem;
+}
+
+/* container part1 */
+#container-part1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+#container-part1 h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.2rem;
+}
+#container-part1 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+    color: rgb(105, 98, 98);
+    padding: 10px;
+}
+
+.c-p1-btn{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+#get-started{
+    font-size: 1.1rem;
+    background-color: #e95115;
+    border: 2px solid;
+    padding: 5px;
+}
+#Learn-more{
+    font-size: 1.1rem;
+    border: 2px solid #d72f11;
+    padding: 5px;
+}
+/* container part2 */
+#container-part2{
+    width: 50%;
+    background-image: url(./src/main-image-pattern.png),url(./src/main-image.png),url(./src/main-image-bg.png);
+    background-position:center,center,center ;
+    background-size: 28rem, 17rem, 25rem;
+    z-index: 1;
+     background-repeat: no-repeat;
+     display: flex;
+     justify-content: center;
+    align-items: center;
+}
+
+/* Footer start */
+
+
+/* Footer container */
+#footer-container{
+    background-color: #191527;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    height: auto;
+    
+    padding: 3rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+
+}
+/* Footer box 1 */
+#f-b-1{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* Footer box 2 */
+#f-b-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;       
+}
+#f-b-2 img{
+    width: 1rem;
+    height: auto;
+    background-color:#3ec93e ;
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+/* Footer box 3 */
+#f-b-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;       
+}
+#f-b-3 img{
+    width: 1rem;
+    height: auto;
+    background-color:#be6133 ;
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+/* Footer box 4 */
+#f-b-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;       
+}
+#f-b-4 img{
+    width: 1rem;
+    height: auto;
+    background-color:#20368f ;
+    padding: 0.5rem;
+    border-radius: 8px;
+}
